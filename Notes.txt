@@ -1,0 +1,34 @@
+python train.py --dataroot /home/irtza/Desktop/RidgePredictionRePower/dataset --batchSize 2 --gpu_ids 0 --name ridgeGAN --nThreads 2 --model cycle_gan --which_direction AtoB --dataset_mode unaligned
+
+
+
+
+
+
+
+
+usage: train.py [-h] --dataroot DATAROOT [--batchSize BATCHSIZE]
+                [--loadSize LOADSIZE] [--fineSize FINESIZE]
+                [--input_nc INPUT_NC] [--output_nc OUTPUT_NC] [--ngf NGF]
+                [--ndf NDF] [--which_model_netD WHICH_MODEL_NETD]
+                [--which_model_netG WHICH_MODEL_NETG]
+                [--n_layers_D N_LAYERS_D] [--gpu_ids GPU_IDS] [--name NAME]
+                [--dataset_mode DATASET_MODE] [--model MODEL]
+                [--which_direction WHICH_DIRECTION] [--nThreads NTHREADS]
+                [--checkpoints_dir CHECKPOINTS_DIR] [--norm NORM]
+                [--serial_batches] [--display_winsize DISPLAY_WINSIZE]
+                [--display_id DISPLAY_ID] [--display_port DISPLAY_PORT]
+                [--no_dropout] [--max_dataset_size MAX_DATASET_SIZE]
+                [--resize_or_crop RESIZE_OR_CROP] [--no_flip]
+                [--init_type INIT_TYPE] [--display_freq DISPLAY_FREQ]
+                [--display_single_pane_ncols DISPLAY_SINGLE_PANE_NCOLS]
+                [--update_html_freq UPDATE_HTML_FREQ]
+                [--print_freq PRINT_FREQ]
+                [--save_latest_freq SAVE_LATEST_FREQ]
+                [--save_epoch_freq SAVE_EPOCH_FREQ] [--continue_train]
+                [--epoch_count EPOCH_COUNT] [--phase PHASE]
+                [--which_epoch WHICH_EPOCH] [--niter NITER]
+                [--niter_decay NITER_DECAY] [--beta1 BETA1] [--lr LR]
+                [--no_lsgan] [--lambda_A LAMBDA_A] [--lambda_B LAMBDA_B]
+                [--pool_size POOL_SIZE] [--no_html] [--lr_policy LR_POLICY]
+                [--lr_decay_iters LR_DECAY_ITERS] [--identity IDENTITY]
